@@ -14,10 +14,10 @@
 ================================================== -->
 <footer>
 	<div class="container">
-		<div class="col-sm-3">
+		<div class="col-sm-2">
 			<p><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo-meeple-yellow.png" alt="Westchester Gaming Group"></a></p>
 		</div><!-- end col -->
-		<div class="col-sm-6">
+		<div class="col-sm-7">
 			<p><?php bloginfo('name'); ?> is proudly powered by <a href="http://wordpress.org/">WordPress <?php bloginfo('version'); ?></a> | <a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a> | <a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a>.</p>
 		</div><!-- end col -->
 		<div class="col-sm-3">
