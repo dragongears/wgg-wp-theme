@@ -12,14 +12,13 @@ get_header(); ?>
 <div class="container">
 	<div class="row" id="primary">
 
-		<main id="content" class="col-sm-8">
+		<main id="content" class="site-main col-sm-8">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-<!--				--><?php //wgg_2016_post_nav(); ?>
-				<?php the_post_navigation(); ?>
+				<?php wgg_2016_post_nav(); ?>
 
 				<?php
 				// If comments are open or we have at least one comment, load up the comment template
